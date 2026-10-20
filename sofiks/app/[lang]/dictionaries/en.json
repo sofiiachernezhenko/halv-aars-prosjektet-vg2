@@ -1,0 +1,13 @@
+{
+  "dashboard": {
+    "greeting": "Hello!",
+    "title": "Ready to learn something new?",
+    "subtitle": "Pick up where you left off.",
+    "courses": "Your subjects",
+    "continue": "Continue learning",
+    "programming": "Programming",
+    "design": "Design",
+    "hardware": "Hardware and networks",
+    "assignments": "Assignments"
+  }
+}

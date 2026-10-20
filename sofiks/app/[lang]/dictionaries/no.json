@@ -1,0 +1,13 @@
+{
+  "dashboard": {
+    "greeting": "Hei!",
+    "title": "Klar for å lære noe nytt?",
+    "subtitle": "Fortsett der du slapp.",
+    "courses": "Dine fag",
+    "continue": "Fortsett læringen",
+    "programming": "IT-utvikling",
+    "design": "Medieproduksjon",
+    "hardware": "Maskinvare og nettverk",
+    "assignments": "Oppgaver"
+  }
+}

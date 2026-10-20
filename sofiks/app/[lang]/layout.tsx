@@ -4,8 +4,13 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { locales } from "./dictionary";
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
+
+export function generateStaticParams() {
+  return locales.map((lang) => ({ lang }));
+}
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +27,7 @@ export const metadata: Metadata = {
   description: "Learning platform for IM students",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: LayoutProps<"/[lang]">) {
   return (
     <html
       lang="en"

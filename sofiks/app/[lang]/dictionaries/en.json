@@ -8,6 +8,8 @@
     "programming": "Programming",
     "design": "Design",
     "hardware": "Hardware and networks",
-    "assignments": "Assignments"
+    "hardwareDescription": "PC, networks and equipment",
+    "assignments": "Assignments",
+    "assignmentsDescription": "Practice what you have learned and develop your skills"
   }
 }

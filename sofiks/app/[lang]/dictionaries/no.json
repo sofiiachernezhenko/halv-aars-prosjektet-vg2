@@ -8,6 +8,8 @@
     "programming": "IT-utvikling",
     "design": "Medieproduksjon",
     "hardware": "Maskinvare og nettverk",
-    "assignments": "Oppgaver"
+    "hardwareDescription": "PC, nettverk og utstyr",
+    "assignments": "Oppgaver",
+    "assignmentsDescription": "Øv på det du har lært, og utvikle ferdighetene dine"
   }
 }

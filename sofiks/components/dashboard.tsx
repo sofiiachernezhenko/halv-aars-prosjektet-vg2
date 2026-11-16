@@ -1,7 +1,6 @@
 type DashboardProps = {
   dict: {
     dashboard: {
-      greeting: string;
       title: string;
       subtitle: string;
       courses: string;
@@ -9,7 +8,9 @@ type DashboardProps = {
       programming: string;
       design: string;
       hardware: string;
+      hardwareDescription: string;
       assignments: string;
+      assignmentsDescription: string;
     };
   };
 };
@@ -20,7 +21,7 @@ export function Dashboard({ dict }: DashboardProps) {
   const subjects = [
     {
       title: t.programming,
-      description: "HTML, CSS, JavaScript",
+      description: "HTML, CSS, JavaScript, Python, Git",
     },
     {
       title: t.design,
@@ -28,7 +29,7 @@ export function Dashboard({ dict }: DashboardProps) {
     },
     {
       title: t.hardware,
-      description: "PC, nettverk og utstyr",
+      description: t.hardwareDescription,
     },
   ];
 
@@ -36,10 +37,6 @@ export function Dashboard({ dict }: DashboardProps) {
     <main className="min-h-screen bg-[#F8F5FF] p-6 text-[#311F4F] md:p-10">
       <div className="mx-auto max-w-5xl">
         <header className="mb-10">
-          <p className="mb-3 text-sm font-medium text-[#8055BC]">
-            {t.greeting}
-          </p>
-
           <h1 className="mb-3 text-3xl font-bold md:text-4xl">{t.title}</h1>
 
           <p className="text-[#756987]">{t.subtitle}</p>
@@ -74,9 +71,7 @@ export function Dashboard({ dict }: DashboardProps) {
 
         <section className="mt-8 rounded-2xl bg-[#411981] p-6 text-white md:p-8">
           <h2 className="mb-2 text-xl font-semibold">{t.assignments}</h2>
-          <p className="text-sm text-purple-100">
-            Øv på det du har lært, og utvikle ferdighetene dine.
-          </p>
+          <p className="text-sm text-purple-100">{t.assignmentsDescription}</p>
         </section>
       </div>
     </main>

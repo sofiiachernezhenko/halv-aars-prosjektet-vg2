@@ -8,6 +8,8 @@
     "programming": "Програмування",
     "design": "Дизайн",
     "hardware": "Комп'ютери та мережі",
-    "assignments": "Завдання"
+    "hardwareDescription": "З чого складаються компьютери, мережі та обладнання",
+    "assignments": "Завдання",
+    "assignmentsDescription": "Практикуй те, що вивчив, та розвивай свої навички"
   }
 }

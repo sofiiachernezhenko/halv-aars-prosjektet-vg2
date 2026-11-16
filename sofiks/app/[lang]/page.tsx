@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "./dictionary";
-import { Dashboard } from "@/components/dashboard";
+import { Dashboard } from "@/components/Dashboard";
 
 export default async function HomePage(props: PageProps<"/[lang]">) {
   const { lang } = await props.params;
